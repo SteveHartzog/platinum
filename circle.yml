@@ -1,0 +1,11 @@
+## Node
+machine:
+  node:
+    version: 8.1.0
+
+## Heroku
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: safe-taiga-17544
